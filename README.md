@@ -3,8 +3,8 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 
 👨‍🎓Student ✌️( Html nuxt.js ) 🧑‍💻( Go ) 😎( CSS Tailwindcss) พร้อมเรียนรู้🚀🚀🚀
 ------------------------------------------------------------------------------------
-
-* 🌍  I'm based in Bangkok
+* thailand
+* 🌍  I'm based in Chiang Mai 
 
 <a href="https://www.github.com/10Pree" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/github/followers/10Pree?logo=github&style=for-the-badge&color=84cc16&labelColor=000000" /></a>
