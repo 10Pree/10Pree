@@ -22,3 +22,6 @@
 
 ### 🗡️ **About Me**
 ```diff
++ Hello folks! 😊 I'm Martin Heinz, a software developer/DevOps engineer from Slovakia. 
++ Living in Bratislava, I craft systems with the precision of a manga artist 
++ and the discipline of a samurai warrior.
