@@ -20,8 +20,4 @@
 
 ---
 
-### 🎌 **About Me**
-```diff
-+ Konnichiwa! I'm Nonthanan Simpree, a fullstack developer blending the art of 
-+ coding with the discipline of a digital samurai. I transform complex problems 
-+ into elegant solutions with clean code and innovative architecture.
+<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=10Pree&show_icons=true&theme=dark&bg_color=000000&title_color=fff&text_color=fff&icon_color=79ff97&border_color=79ff97&include_all_commits=true" alt="Stats" width="48%"/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=10Pree&theme=dark&background=000000&border=79FF97&stroke=79FF97&ring=79FF97&fire=79FF97&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=79FF97&sideLabels=FFFFFF&dates=FFFFFF" alt="Streak" width="48%"/> </div>
