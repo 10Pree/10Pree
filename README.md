@@ -18,7 +18,7 @@
  じしˍ,)ノ  </pre>
 </div>
 
-<div align="center">
+<div align="">
 Domain	Weapons
 🖥️ OS	windows
 🐍 Languages	 HTML CSS JavaScript tailwind css 
