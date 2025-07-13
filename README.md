@@ -13,8 +13,8 @@
 <div align="center">
   <pre>
   ╱|、          
- (˚ˎ。7     "Crafting digital worlds with
- |、˜〵       precision of a manga artist"
+ (˚ˎ。7     "Crafting pixel-perfect worlds with
+ |、˜〵       the precision of a manga artist's pen"
  じしˍ,)ノ  </pre>
 </div>
 
