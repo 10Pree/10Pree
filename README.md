@@ -39,18 +39,10 @@
 
 ---
 
-## 🎯 Current Focus
-1. พัฒนาเว็บแอปด้วย **Go Fiber** + **Nuxt.js (TypeScript)**  
-2. ทำระบบ **Authentication & Authorization** ด้วย JWT  
-3. Integrate **AWS S3** สำหรับจัดเก็บไฟล์  
-4. สร้างหน้า **Dashboard** สำหรับผู้ดูแลระบบ  
-
----
-
 ## 📫 Contact & Social
 - 📍 Bangkok, Thailand  
 - ✉️ nonthanansimpree@gmail.com  
-- 🔗 [GitHub](https://github.com/10Pree) · [LinkedIn](https://www.linkedin.com/in/your-profile)  
+- 🔗 [GitHub](https://github.com/10Pree) · [LinkedIn]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/nonthanan-simpree-603b73374/))  
 
 ---
 
