@@ -26,21 +26,18 @@
 ---
 
 <div align="center">
-  <!-- แทนวิดีโอด้วย GIF + ลิงก์ YouTube เมื่อคลิก -->
-  [![Demo GIF](./assets/demo.gif)](https://youtu.be/VIDEO_ID)
+  <!-- รายละเอียดแบบลิสต์ -->
+  **🔰 Summary**  
+  - **Domain:** Weapons  
+  - **OS:** 🖥️ Windows  
+  - **Languages:** HTML · CSS · JavaScript · Tailwind CSS  
+  - **Tools:** VSCode · Docker · Postman · GitHub Desktop · MySQL Workbench · Navicat  
 </div>
 
 ---
 
-<!-- ตารางจัดหมวดหมู่ข้อมูล -->
-| Domain   | OS        | Languages                              | Tools                                                   |
-|----------|-----------|----------------------------------------|---------------------------------------------------------|
-| Weapons  | 🖥️ windows | 🐍 HTML, CSS, JavaScript, Tailwind CSS | 🧰 VSCode, Docker, Postman, GitHub Desktop, MySQL Workbench, Navicat |
-
----
-
 <div align="center">
-  <!-- GitHub Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=10Pree&show_icons=true&theme=dark&bg_color=000000&title_color=fff&text_color=fff&icon_color=79ff97&border_color=79ff97&include_all_commits=true" alt="Stats" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=10Pree&theme=dark&background=000000&border=79FF97&stroke=79FF97&ring=79FF97&fire=79FF97&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=79FF97&sideLabels=FFFFFF&dates=FFFFFF" alt="Streak" width="48%"/>
+  <!-- GitHub Stats แบบขาว–ดำ -->
+  <img src="https://github-readme-stats.vercel.app/api?username=10Pree&show_icons=true&theme=default&border_color=000000" alt="GitHub Stats" width="48%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=10Pree&theme=default&border=000000&stroke=000000&ring=000000&fire=000000&dates=000000" alt="GitHub Streak" width="48%"/>
 </div>
