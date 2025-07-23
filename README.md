@@ -54,20 +54,6 @@
 
 ---
 
-<details>
-<summary>🏆 Achievements & Contributions</summary>
-
-- 🌟 **Total Stars Earned:** 2  
-- 📦 **Total Commits (2025):** 108  
-- 🔀 **Total PRs:** 12  
-- ❗ **Total Issues Opened:** 0  
-- 🔄 **Contributed to (last year):** 0  
-- 📊 **Current GitHub Streak:** 64 วัน  
-- 🏅 **Longest Streak:** 64 วัน (May 12 – Jul 14)  
-</details>
-
----
-
 <div align="right">
-<sub>Last updated: **July 14, 2025**</sub>
+<sub>Last updated: **July 23, 2025**</sub>
 </div>
