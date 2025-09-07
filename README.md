@@ -1,6 +1,9 @@
 <!-- Manga-style banner -->
 <p align="center">
-  <img src="https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg" width="100%" alt="Manga-style banner"/>
+  <img
+    src="https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    width="40%"
+  />
 </p>
 
 <div align="center">
