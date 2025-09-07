@@ -1,6 +1,6 @@
 <!-- Manga-style banner -->
 <p align="center">
-  <img src="https://scontent.fcnx3-1.fna.fbcdn.net/v/t39.30808-6/488029570_4198621493754255_3366608891004219665_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHePtKKIIKDXQiYDNRBt_YCyq4Te8MzXNTKrhN7wzNc1EGesY_D-EVSS0c6yTVcQFEAaYDsaUOi0ndmwYXDtfKn&_nc_ohc=CTaGzDZNb0MQ7kNvwH8JdRR&_nc_oc=Admp9TnKwqZITdsgcxI2e_-tPgJVRrb8YhYCTB1C8t_dsfNrY9qO3mseF7vp7QTcGFM&_nc_zt=23&_nc_ht=scontent.fcnx3-1.fna&_nc_gid=Wuaecr9x_KmNuS9MqFycpg&oh=00_AfWuJvUddN8RcytzmiDzNqLqK7F0Jqlm4OiEzLHGejrY0Q&oe=68B1F0D9" width="100%" alt="Manga-style banner"/>
+  <img src="https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg" width="100%" alt="Manga-style banner"/>
 </p>
 
 <div align="center">
