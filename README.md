@@ -15,14 +15,14 @@
   </h1>
 
   <!-- คำอธิบายสั้นๆ -->
-  <h3>Fullstack Developer • Code Samurai • Digital Craftsman</h3>
+  <h3>Fullstack Developer • UX/UI Designer</h3>
 
   <!-- ASCII Art กลาง -->
   <pre>
-   ╱|、          
-  (˚ˎ。7     "Crafting pixel-perfect worlds with
-  |、˜〵       the precision of a manga artist's pen"
-   じしˍ,)ノ  
+╱|、       
+(˚ˎ。7     
+|、˜〵       
+じしˍ,)ノ  
   </pre>
 </div>
 
