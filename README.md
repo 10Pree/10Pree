@@ -45,7 +45,7 @@
 ## 📫 Contact & Social
 - 📍 Bangkok, Thailand  
 - ✉️ nonthanansimpree@gmail.com  
-- 🔗 [GitHub](https://github.com/10Pree) · [LinkedIn](https://www.linkedin.com/in/nonthanan-simpree)
+- 🔗 [WebProfile](https://web-profile-tc4s.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/nonthanan-simpree)
 
 ---
 
