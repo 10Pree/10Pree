@@ -33,7 +33,8 @@
 - **Operating System:** 🖥️ Windows  
 - **Languages:** HTML · CSS · JavaScript · Tailwind CSS  
 - **Tools & Environments:**  
-  - VSCode  
+  - VSCode
+  - Figma  
   - Docker  
   - Postman  
   - GitHub Desktop  
