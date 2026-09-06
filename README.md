@@ -1,63 +1,64 @@
-<!-- Manga-style banner -->
-<p align="center">
-  <img
-    src="https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    width="40%"
-  />
-</p>
-
 <div align="center">
-  <!-- ชื่อและไอคอนตรงกลาง -->
-  <h1>
-    <img src="https://i.imgur.com/0c4Y5y7.png" width="32" alt="icon"/>
-    Nonthanan Simpree
-    <img src="https://i.imgur.com/0c4Y5y7.png" width="32" alt="icon"/>
-  </h1>
 
-  <!-- คำอธิบายสั้นๆ -->
-  <h3>Fullstack Developer • UX/UI Designer</h3>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:1B2735&height=200&section=header&text=Nonthanan%20Simpree&fontSize=38&fontColor=39D0D8&animation=fadeIn&fontAlignY=35)
 
-  <!-- ASCII Art กลาง -->
-  <pre>
-  ╱|、       
-(˚ˎ。7     
-  |、˜〵       
-じしˍ,)ノ  
-  </pre>
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=39D0D8&width=460&lines=Fullstack+Developer;UX%2FUI+Designer;Based+in+Bangkok%2C+Thailand)](https://git.io/typing-svg)
+
+<pre>
+  ╱|、
+(˚ˎ。7
+  |、˜〵
+じしˍ,)ノ
+</pre>
+
 </div>
 
 ---
 
-## 🔰 Profile Summary
-- **Domain:** Weapons  
-- **Operating System:** 🖥️ Windows  
-- **Languages:** HTML · CSS · JavaScript · Tailwind CSS  
-- **Tools & Environments:**  
-  - VSCode
-  - Figma  
-  - Docker  
-  - Postman  
-  - GitHub Desktop  
-  - MySQL Workbench  
-  - Navicat  
+### 🔰 Profile Summary
+- **Operating System:** Windows
+- **Languages:** HTML · CSS · JavaScript · Tailwind CSS
+- **Tools & Environments:** VSCode · Figma · Docker · Postman · GitHub Desktop · MySQL Workbench · Navicat
+
+<!-- Domain: Weapons ตัดออกไปก่อน เพราะยังไม่แน่ใจว่าหมายถึงอะไร — บอกมาแล้วใส่กลับให้ตรง -->
 
 ---
 
-## 📫 Contact & Social
-- 📍 Bangkok, Thailand  
-- ✉️ nonthanansimpree@gmail.com  
+### 🛠️ Tech Stack
+<div align="center">
+
+![Skills](https://skillicons.dev/icons?i=html,css,js,tailwind,figma,docker)
+
+</div>
+
+---
+
+### 💼 ผลงาน
+ดูผลงานทั้งหมดได้ที่ **[WebProfile](https://web-profile-tc4s.vercel.app/)**
+
+<!-- อยากได้ section โปรเจกต์เด่นแบบมีชื่อ/คำอธิบายในนี้เลย ส่งชื่อโปรเจกต์ + ลิงก์มาเพิ่มได้ จะไม่เดาใส่เอง -->
+
+---
+
+### 📊 GitHub Stats
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=10Pree&show_icons=true&theme=highcontrast&hide_border=true" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=10Pree&layout=compact&theme=highcontrast&hide_border=true" width="48%" />
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=10Pree&theme=highcontrast&hide_border=true)
+
+</div>
+
+---
+
+### 📫 Contact & Social
+- 📍 Bangkok, Thailand
+- ✉️ nonthanansimpree@gmail.com
 - 🔗 [WebProfile](https://web-profile-tc4s.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/nonthanan-simpree)
 
----
-
-<div align="center">
-  <!-- GitHub Stats มุมมองขาว–ดำ -->
-  <img src="https://github-readme-stats.vercel.app/api?username=10Pree&show_icons=true&theme=default&border_color=000000" alt="GitHub Stats" width="45%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=10Pree&theme=default&border=000000&stroke=000000&ring=000000&fire=000000&dates=000000" alt="GitHub Streak" width="45%"/>
-</div>
-
----
-
 <div align="right">
-<sub>Last updated: **July 23, 2025**</sub>
+
+![Last Commit](https://img.shields.io/github/last-commit/10Pree/10Pree?color=39D0D8&style=flat-square&label=last%20updated)
+
 </div>
