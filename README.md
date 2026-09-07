@@ -1,4 +1,5 @@
 <div align="center">
+
 <img src="https://raw.githubusercontent.com/10Pree/10Pree/main/assets/forest-banner.svg" width="100%" alt="forest banner" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=74C69D&width=460&lines=Fullstack+Developer;UX%2FUI+Designer;Based+in+Bangkok%2C+Thailand)](https://git.io/typing-svg)
@@ -46,9 +47,9 @@
 ![GitHub Streak](https://streak-stats.demolab.com/?user=10Pree&background=0B3D2E&border=2D6A4F&stroke=95D5B2&ring=74C69D&fire=95D5B2&dates=B7E4C7)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/10Pree/10Pree/output/dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/10Pree/10Pree/output/dist/github-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/10Pree/10Pree/output/dist/github-snake.svg" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/10Pree/10Pree/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/10Pree/10Pree/output/github-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/10Pree/10Pree/output/github-snake.svg" width="100%"/>
 </picture>
 
 </div>
