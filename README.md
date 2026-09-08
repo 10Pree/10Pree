@@ -42,8 +42,6 @@
 ### 🌱 GitHub Stats
 <div align="center">
 
-<img src="https://github-readme-stats-beta-drab-0dtrz5t0ug.vercel.app/api?username=10Pree&show_icons=true&hide_border=true&bg_color=0B3D2E&title_color=95D5B2&text_color=EAF7EE&icon_color=74C69D" width="48%" />
-<img src="https://github-readme-stats-beta-drab-0dtrz5t0ug.vercel.app/api/top-langs/?username=10Pree&layout=compact&hide_border=true&bg_color=0B3D2E&title_color=95D5B2&text_color=EAF7EE" width="48%" />
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=10Pree&background=0B3D2E&border=2D6A4F&stroke=95D5B2&ring=74C69D&fire=95D5B2&dates=B7E4C7)
 
