@@ -3,7 +3,7 @@
 <img src="https://raw.githubusercontent.com/10Pree/10Pree/main/assets/forest-banner.svg" width="100%" alt="forest banner" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=74C69D&width=460&lines=Fullstack+Developer;UX%2FUI+Designer;Based+in+Bangkok%2C+Thailand)](https://git.io/typing-svg)
-<img src="https://raw.githubusercontent.com/10Pree/10Pree/main/assets/sprout.svg" width="40" valign="middle" alt="growing sprout" />
+<!-- <img src="https://raw.githubusercontent.com/10Pree/10Pree/main/assets/sprout.svg" width="40" valign="middle" alt="growing sprout" /> -->
 
 <pre>
   ╱|、
