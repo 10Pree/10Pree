@@ -45,27 +45,58 @@ jobs:
             else if (total < 900) { stage = 'mature';    leaves = 24; }
             else                   { stage = 'blooming'; leaves = 24; }
 
-            const leafPositions = [];
-            for (let i = 0; i < leaves; i++) {
-              const angle = (i / leaves) * Math.PI * 2;
-              const r = 30 + (i % 3) * 8;
-              const cx = 150 + Math.cos(angle) * r;
-              const cy = 90 + Math.sin(angle) * r * 0.7;
-              const bloom = stage === 'blooming' && i % 3 === 0;
-              const fill = bloom ? '#FFD6E8' : (i % 2 === 0 ? '#74C69D' : '#95D5B2');
-              leafPositions.push(`<circle class="leafdot" cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${bloom ? 6 : 8}" fill="${fill}" style="animation-delay:-${(i * 0.4).toFixed(1)}s;"/>`);
+            const trunkHeight = stage === 'sapling' ? 55 : 95;
+            const trunkTopX = 150, trunkTopY = 180 - trunkHeight;
+            const trunkBaseW = 22, trunkTopW = 11;
+            const clusterScale = stage === 'sapling' ? 0.55 : (stage === 'young' ? 0.8 : 1);
+            let clusters = [
+              { dx: 0,   dy: -32, spread: 28 },
+              { dx: -32, dy: -12, spread: 22 },
+              { dx: 32,  dy: -12, spread: 22 },
+              { dx: -14, dy: 6,   spread: 18 },
+              { dx: 16,  dy: 8,   spread: 18 },
+            ].map(c => ({ dx: c.dx * clusterScale, dy: c.dy * clusterScale, spread: c.spread * clusterScale }));
+            if (stage === 'sapling') clusters = clusters.slice(0, 3);
+
+            function pseudoRand(seed) { const x = Math.sin(seed * 12.9898) * 43758.5453; return x - Math.floor(x); }
+
+            const branchEls = clusters.map(c =>
+              `<path d="M${trunkTopX},${(trunkTopY + 8).toFixed(1)} Q${(trunkTopX + c.dx * 0.5).toFixed(1)},${(trunkTopY + c.dy * 0.5 + 8).toFixed(1)} ${(trunkTopX + c.dx).toFixed(1)},${(trunkTopY + c.dy).toFixed(1)}" stroke="#4A3222" stroke-width="4" fill="none" stroke-linecap="round"/>`
+            );
+
+            const leafEls = [];
+            const perCluster = Math.ceil(leaves / clusters.length);
+            let leafIndex = 0;
+            for (let ci = 0; ci < clusters.length && leafIndex < leaves; ci++) {
+              const c = clusters[ci];
+              for (let k = 0; k < perCluster && leafIndex < leaves; k++, leafIndex++) {
+                const r1 = pseudoRand(leafIndex * 3.1 + 1);
+                const r2 = pseudoRand(leafIndex * 7.7 + 2);
+                const ang = r1 * Math.PI * 2;
+                const dist = r2 * c.spread;
+                const cx = trunkTopX + c.dx + Math.cos(ang) * dist;
+                const cy = trunkTopY + c.dy + Math.sin(ang) * dist * 0.85;
+                const lightness = (Math.cos(ang - 0.6) + 1) / 2;
+                const bloom = stage === 'blooming' && leafIndex % 4 === 0;
+                const fill = bloom ? '#FFD6E8' : (lightness > 0.55 ? '#95D5B2' : (lightness > 0.28 ? '#74C69D' : '#2D6A4F'));
+                const rad = bloom ? 5 : (6 + r1 * 3.2);
+                leafEls.push(`<circle class="leafdot" cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${rad.toFixed(1)}" fill="${fill}" style="animation-delay:-${(leafIndex * 0.32).toFixed(1)}s;"/>`);
+              }
             }
 
-            const trunkHeight = stage === 'sapling' ? 60 : 90;
             const svgLines = [];
             svgLines.push('<svg viewBox="0 0 300 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="contribution growth tree">');
             svgLines.push('<style><![CDATA[');
             svgLines.push('.leafdot { animation: sway3 3.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }');
             svgLines.push('@keyframes sway3 { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }');
             svgLines.push(']]></style>');
-            svgLines.push('<rect x="140" y="' + (180 - trunkHeight) + '" width="20" height="' + trunkHeight + '" rx="4" fill="#5C4033"/>');
-            svgLines.push(leafPositions.join('\n'));
-            svgLines.push('<text x="150" y="225" text-anchor="middle" font-family="Trebuchet MS, sans-serif" font-size="15" fill="#EAF7EE">' + total + ' contributions this year</text>');
+            svgLines.push('<ellipse cx="150" cy="183" rx="27" ry="6" fill="#050D0A" opacity="0.5"/>');
+            svgLines.push(`<path d="M${trunkTopX - trunkTopW/2},${trunkTopY} L${trunkTopX + trunkTopW/2},${trunkTopY} L${trunkTopX + trunkBaseW/2},180 L${trunkTopX - trunkBaseW/2},180 Z" fill="#5C4033"/>`);
+            svgLines.push(`<line x1="${trunkTopX - 3}" y1="${trunkTopY + 10}" x2="${trunkTopX - 5}" y2="176" stroke="#4A3222" stroke-width="1.6" opacity="0.6"/>`);
+            svgLines.push(`<line x1="${trunkTopX + 4}" y1="${trunkTopY + 16}" x2="${trunkTopX + 6}" y2="178" stroke="#4A3222" stroke-width="1.6" opacity="0.6"/>`);
+            svgLines.push(branchEls.join('\n'));
+            svgLines.push(leafEls.join('\n'));
+            svgLines.push('<text x="150" y="225" text-anchor="middle" font-family="Trebuchet MS, sans-serif" font-size="14" fill="#EAF7EE">' + total + ' contributions in the past year</text>');
             svgLines.push('</svg>');
             const svg = svgLines.join('\n');
 
