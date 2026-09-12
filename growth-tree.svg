@@ -1,0 +1,40 @@
+<svg viewBox="0 0 300 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="contribution growth tree">
+<style><![CDATA[
+.leafdot { animation: sway3 3.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes sway3 { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+]]></style>
+<ellipse cx="150" cy="183" rx="27" ry="6" fill="#050D0A" opacity="0.5"/>
+<path d="M144.5,85 L155.5,85 L161,180 L139,180 Z" fill="#5C4033"/>
+<line x1="147" y1="95" x2="145" y2="176" stroke="#4A3222" stroke-width="1.6" opacity="0.6"/>
+<line x1="154" y1="101" x2="156" y2="178" stroke="#4A3222" stroke-width="1.6" opacity="0.6"/>
+<path d="M150,93.0 Q150.0,77.0 150.0,53.0" stroke="#4A3222" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M150,93.0 Q134.0,87.0 118.0,73.0" stroke="#4A3222" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M150,93.0 Q166.0,87.0 182.0,73.0" stroke="#4A3222" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M150,93.0 Q143.0,96.0 136.0,91.0" stroke="#4A3222" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M150,93.0 Q158.0,97.0 166.0,93.0" stroke="#4A3222" stroke-width="4" fill="none" stroke-linecap="round"/>
+<circle class="leafdot" cx="151.4" cy="52.4" r="8.9" fill="#95D5B2" style="animation-delay:-0.0s;"/>
+<circle class="leafdot" cx="135.3" cy="63.9" r="7.2" fill="#74C69D" style="animation-delay:-0.3s;"/>
+<circle class="leafdot" cx="150.8" cy="54.6" r="6.6" fill="#95D5B2" style="animation-delay:-0.6s;"/>
+<circle class="leafdot" cx="133.1" cy="56.9" r="7.5" fill="#2D6A4F" style="animation-delay:-1.0s;"/>
+<circle class="leafdot" cx="148.8" cy="51.6" r="8.1" fill="#2D6A4F" style="animation-delay:-1.3s;"/>
+<circle class="leafdot" cx="105.0" cy="59.0" r="8.1" fill="#2D6A4F" style="animation-delay:-1.6s;"/>
+<circle class="leafdot" cx="118.1" cy="70.9" r="8.4" fill="#2D6A4F" style="animation-delay:-1.9s;"/>
+<circle class="leafdot" cx="126.9" cy="75.8" r="6.2" fill="#95D5B2" style="animation-delay:-2.2s;"/>
+<circle class="leafdot" cx="134.3" cy="79.6" r="6.2" fill="#95D5B2" style="animation-delay:-2.6s;"/>
+<circle class="leafdot" cx="100.7" cy="78.3" r="7.4" fill="#2D6A4F" style="animation-delay:-2.9s;"/>
+<circle class="leafdot" cx="181.8" cy="73.8" r="6.9" fill="#95D5B2" style="animation-delay:-3.2s;"/>
+<circle class="leafdot" cx="167.9" cy="73.1" r="7.6" fill="#2D6A4F" style="animation-delay:-3.5s;"/>
+<circle class="leafdot" cx="186.3" cy="86.7" r="6.7" fill="#95D5B2" style="animation-delay:-3.8s;"/>
+<circle class="leafdot" cx="174.5" cy="70.2" r="7.8" fill="#2D6A4F" style="animation-delay:-4.2s;"/>
+<circle class="leafdot" cx="168.7" cy="77.1" r="7.4" fill="#2D6A4F" style="animation-delay:-4.5s;"/>
+<circle class="leafdot" cx="126.9" cy="88.4" r="7.8" fill="#2D6A4F" style="animation-delay:-4.8s;"/>
+<circle class="leafdot" cx="138.9" cy="84.2" r="8.6" fill="#74C69D" style="animation-delay:-5.1s;"/>
+<circle class="leafdot" cx="133.1" cy="90.1" r="7.8" fill="#2D6A4F" style="animation-delay:-5.4s;"/>
+<circle class="leafdot" cx="132.7" cy="90.9" r="7.6" fill="#2D6A4F" style="animation-delay:-5.8s;"/>
+<circle class="leafdot" cx="138.7" cy="98.7" r="6.7" fill="#95D5B2" style="animation-delay:-6.1s;"/>
+<circle class="leafdot" cx="183.0" cy="94.5" r="6.1" fill="#95D5B2" style="animation-delay:-6.4s;"/>
+<circle class="leafdot" cx="173.1" cy="83.4" r="8.7" fill="#74C69D" style="animation-delay:-6.7s;"/>
+<circle class="leafdot" cx="163.1" cy="94.8" r="7.3" fill="#74C69D" style="animation-delay:-7.0s;"/>
+<circle class="leafdot" cx="173.1" cy="98.5" r="6.4" fill="#95D5B2" style="animation-delay:-7.4s;"/>
+<text x="150" y="225" text-anchor="middle" font-family="Trebuchet MS, sans-serif" font-size="14" fill="#EAF7EE">469 contributions in the past year</text>
+</svg>
